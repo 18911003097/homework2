@@ -1,0 +1,24 @@
+<!--pages/search/search.wxml-->
+<view>
+   <view>
+       <view class="search">
+         <view class="search_frame">
+            <view class="search_box">
+                <icon class="search_icon" type="search" size="18"></icon>
+                <input type="text" class="input" bindinput="inputchar" value="{{inputValue}}" placeholder="请输入关键字"/>
+            </view>
+          </view>
+                <view class="icon_box_title" bindtap="searchButton">搜索</view>
+            <view class="search_cancel" bindtap='hideInput'>取消</view>
+       </view>
+   </view>
+</view>
+<view class="data">
+  <block wx:for="{{list}}">
+    <view>
+    <view class="name">课程名称：{{item.name}}</view>
+    <view calss="teacher">授课教师：{{item.teacher}}</view>
+    <view class="download">下载数量：{{item.download}}</view>
+  </view>   
+  </block> 
+</view>

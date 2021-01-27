@@ -1,0 +1,86 @@
+page{
+  background:rgb(230, 229, 229);
+}
+.frame{  
+  display: flex;  
+  flex-direction: row;
+  background:rgb(230, 229, 229)
+}  
+
+.search{  
+  width: 80%;  
+}  
+
+.search_frame {  
+  border: 1px solid rgb(190, 190, 190);  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}
+
+.search_frame input{  
+  background:white;
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}  
+
+.bc_text {  
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}
+
+  
+.icon-box-title {  
+  background:rgb(255, 255, 255);
+  margin-left: 15rpx;  
+  width: 15%;    
+  line-height:185%;
+  color:rgb(0, 0, 0);
+  text-align: center;  
+  border:1px solid rgb(179, 176, 176);
+  border-radius: 15rpx;  
+}  
+
+.symbol{  
+  background:rgb(255, 255, 255);
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:13px;  
+  width: 20px;  
+  height: 20px;   
+}  
+.item>text{
+   background:rgb(197, 193, 193);
+   color:rgb(22, 22, 22);
+   margin:10 0 0 0;
+   line-height:50rpx;
+   border-radius:15rpx; 
+   font-weight:bolder;
+   font-size:110%;
+   padding:1px 16px
+
+}
+
+.item>view{
+  display:block;
+  background:rgb(245, 221, 221);
+  border:1px solid rgb(167, 163, 163);
+  border-radius: 15rpx;  
+  padding:1px 8px 0px 8px;
+}
+
+.item{
+  width:100%;
+  padding: 8px 8px;
+  border-bottom:1px solid #eeeeee
+}
+
+.pagenation{
+  display:flex;
+  align-items:center;
+  width:80%;
+  margin:auto;
+  margin-bottom:100px;
+  justify-content:space-around;
+}

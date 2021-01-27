@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class='frame' bindtap="resButton">  
+      <view class="search">  
+        <view class="search_frame">  
+          <icon class="symbol" size='20' type='search'></icon>  
+          <input class="placeholder" placeholder="请输入关键字" bindfocus="search"></input>  
+        </view>  
+      </view>  
+      <view class="icon-box-title">搜索</view>  
+    </view>  
+    <view class="API">
+  <view class="item" wx:for="{{list}}">
+    <text>信息：</text>
+    <view>
+    <view>课程名称：{{item.name}}</view>
+    <view>授课教师：{{item.teacher}}</view>
+    <view>授课时间：{{item.create_time}}</view>
+    <view>下载数量：{{item.download}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="pagenation">
+  <view class="x" wx:for="{{pp}}" wx:key="this" bindtap="handlePageChange" data-page="{{item}}">{{item}}</view>
+</view>

@@ -1,0 +1,64 @@
+/* pages/search/search.wxss */
+.search{
+  position: relative;
+  padding: 8px 10px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+.search_icon {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.search_frame {
+  position: relative;
+  flex: 1;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1rpx solid #ffffff;
+}
+.search_box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.search_cancel {
+  margin-left: 1rpx;  
+  width: 15%;    
+  line-height:185%;
+  color:rgb(29, 151, 29);
+  text-align: center;  
+  border:1px solid rgb(163, 167, 165);
+  border-radius: 15rpx;  
+}
+
+.data>view{
+  color:rgb(0, 0, 0);
+  margin:0 0 0 0;
+  display:block;
+  line-height:50rpx;
+  border:1px solid rgb(163, 167, 165);
+  border-radius: 15rpx;  
+  font-size:85%
+}
+
+.icon_box_title {  
+  margin-left: 1rpx;  
+  width: 15%;    
+  line-height:185%;
+  color:rgb(0, 0, 0);
+  text-align: center;  
+  border:1px solid rgb(167, 163, 163);
+  border-radius: 15rpx;  
+}  
